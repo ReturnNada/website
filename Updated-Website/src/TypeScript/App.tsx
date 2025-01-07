@@ -1,6 +1,15 @@
 import NavBar from "./NavBar";
 import CardView from "./CardView";
 
+{
+  /*
+  Add: 
+  -GitHub/LinkedIn logos
+  -Routing
+  -Footer
+*/
+}
+
 function App() {
   return (
     <>
@@ -14,6 +23,16 @@ function App() {
         Welcome to Lucas R's domain
       </h1>
       <CardView></CardView>
+      <footer
+        style={{
+          backgroundColor: "#ffffff",
+          paddingBottom: 50,
+          justifySelf: "center",
+          flex: 1,
+        }}
+      >
+        All Rights Reserved
+      </footer>
     </>
   );
 }
