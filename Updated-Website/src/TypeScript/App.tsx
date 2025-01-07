@@ -11,15 +11,23 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <NavBar></NavBar>
+      <h1
+        style={{
+          paddingTop: 100,
+          justifySelf: "center",
+        }}
+      >
+        Welcome to Lucas R's domain
+      </h1>
       <CardView></CardView>
       <ListGroup
         items={items}
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-    </div>
+    </>
   );
 }
 

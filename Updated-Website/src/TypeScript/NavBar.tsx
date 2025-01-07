@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" fixed="top" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Welcome</Navbar.Brand>
+        <Navbar.Brand href="#home">Dashboard</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

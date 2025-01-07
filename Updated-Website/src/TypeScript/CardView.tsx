@@ -12,51 +12,63 @@ const CardView: React.FC = () => {
   const cardData: CardData[] = [
     {
       id: 1,
-      title: "Card 1",
-      text: "This is the first card",
+      title: "Class Action",
+      text: "A class-based local multiplayer game",
       imageUrl: "src/assets/CASS0.png",
     },
     {
       id: 2,
-      title: "Card 2",
-      text: "This is the second card",
-      imageUrl: "path/to/image2.jpg",
+      title: "Circuit Design",
+      text: "My PCB designs",
+      imageUrl: "src/assets/Electrium Anti-Spark V3.0 PCB.png",
     },
     {
       id: 3,
-      title: "Card 3",
-      text: "This is the third card",
+      title: "Sketchee",
+      text: "A productivity app for artists",
       imageUrl: "path/to/image3.jpg",
     },
     {
       id: 4,
-      title: "Card 4",
-      text: "This is the fourth card",
-      imageUrl: "path/to/image4.jpg",
+      title: "(s)HitBox",
+      text: "Makeshift controller for fighting games",
+      imageUrl: "src/assets/(s)Hitbox.jpg",
     },
     {
       id: 5,
-      title: "Card 5",
-      text: "This is the fifth card",
+      title: "Night Vision Goggles",
+      text: "Uses an IR camera + Raspberry Pi",
       imageUrl: "path/to/image5.jpg",
     },
     {
       id: 6,
-      title: "Card 6",
-      text: "This is the sixth card",
+      title: "Noise Detector",
+      text: "Uses an STM32, LEDs, and I2C microphone",
+      imageUrl: "src/assets/Noise Detector.jpg",
+    },
+    {
+      id: 7,
+      title: "QIR",
+      text: "Ice-hockey inspired game",
       imageUrl: "path/to/image6.jpg",
+    },
+    {
+      id: 8,
+      title: "Competition Robot",
+      text: "For use in Lockheed Martin's E-Week",
+      imageUrl: "src/assets/Robot2.png",
     },
   ];
 
   return (
-    <Container>
+    <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
       <Row xs={1} md={2} lg={3} className="g-4">
         {cardData.map((card) => (
           <Col key={card.id}>
-            <Card>
+            <Card className="hover-zoom">
               <Card.Body>
                 <Card.Title>{card.title}</Card.Title>
-                <Card.Img src={card.imageUrl} />
+                <Card.Img src={card.imageUrl} className="card-img" />
                 <Card.Text>{card.text}</Card.Text>
               </Card.Body>
             </Card>

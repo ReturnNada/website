@@ -1,0 +1,22 @@
+.card-img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.title{
+  animation-name: bobInOut;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bobInOut{
+  50%{transform: scale(1.1, 1.1);}
+}
