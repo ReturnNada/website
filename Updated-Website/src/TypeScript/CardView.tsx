@@ -26,7 +26,7 @@ const CardView: React.FC = () => {
       id: 3,
       title: "Sketchee",
       text: "A productivity app for artists",
-      imageUrl: "path/to/image3.jpg",
+      imageUrl: "src/assets/Sketchee.PNG",
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ const CardView: React.FC = () => {
       id: 5,
       title: "Night Vision Goggles",
       text: "Uses an IR camera + Raspberry Pi",
-      imageUrl: "path/to/image5.jpg",
+      imageUrl: "src/assets/Night Vision.jpg",
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ const CardView: React.FC = () => {
       id: 7,
       title: "QIR",
       text: "Ice-hockey inspired game",
-      imageUrl: "path/to/image6.jpg",
+      imageUrl: "src/assets/QIR.png",
     },
     {
       id: 8,

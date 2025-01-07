@@ -22,11 +22,6 @@ function App() {
         Welcome to Lucas R's domain
       </h1>
       <CardView></CardView>
-      <ListGroup
-        items={items}
-        heading="Cities"
-        onSelectItem={handleSelectItem}
-      />
     </>
   );
 }
