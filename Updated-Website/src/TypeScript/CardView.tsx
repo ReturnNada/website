@@ -13,7 +13,7 @@ const CardView: React.FC = () => {
     {
       id: 1,
       title: "Class Action",
-      text: "A class-based local multiplayer game",
+      text: "A character-based local multiplayer game",
       imageUrl: "src/assets/CASS0.png",
     },
     {
