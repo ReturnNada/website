@@ -1,5 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import CASS0 from "../assets/CASS0.png";
+import Electrium from "../assets/Electrium.png";
+import Sketchee from "../assets/Sketchee.png";
+import Hitbox from "../assets/Hitbox.jpg";
+import Night_Vision from "../assets/Night_Vision.jpg";
+import Noise_Detector from "../assets/Noise_Detector.jpg";
+import QIR from "../assets/QIR.png";
+import Robot2 from "../assets/Robot2.png";
 
 interface CardData {
   id: number;
@@ -14,49 +22,49 @@ const CardView: React.FC = () => {
       id: 1,
       title: "Class Action",
       text: "A character-based local multiplayer game",
-      imageUrl: "src/assets/CASS0.png",
+      imageUrl: CASS0,
     },
     {
       id: 2,
       title: "Circuit Design",
       text: "My PCB designs",
-      imageUrl: "src/assets/Electrium Anti-Spark V3.0 PCB.png",
+      imageUrl: Electrium,
     },
     {
       id: 3,
       title: "Sketchee",
       text: "A productivity app for artists",
-      imageUrl: "src/assets/Sketchee.PNG",
+      imageUrl: Sketchee,
     },
     {
       id: 4,
       title: "(s)HitBox",
       text: "Makeshift controller for fighting games",
-      imageUrl: "src/assets/(s)Hitbox.jpg",
+      imageUrl: Hitbox,
     },
     {
       id: 5,
       title: "Night Vision Goggles",
       text: "Uses an IR camera + Raspberry Pi",
-      imageUrl: "src/assets/Night Vision.jpg",
+      imageUrl: Night_Vision,
     },
     {
       id: 6,
       title: "Noise Detector",
       text: "Uses an STM32, LEDs, and I2C microphone",
-      imageUrl: "src/assets/Noise Detector.jpg",
+      imageUrl: Noise_Detector,
     },
     {
       id: 7,
       title: "QIR",
       text: "Ice-hockey inspired game",
-      imageUrl: "src/assets/QIR.png",
+      imageUrl: QIR,
     },
     {
       id: 8,
       title: "Competition Robot",
       text: "For use in Lockheed Martin's E-Week",
-      imageUrl: "src/assets/Robot2.png",
+      imageUrl: Robot2,
     },
   ];
 
