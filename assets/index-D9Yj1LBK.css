@@ -1,4 +1,4 @@
-@charset "UTF-8";.card-img{object-fit:cover;height:300px}.hover-zoom{transition:transform .3s ease}.hover-zoom:hover{transform:scale(1.05)}.title{animation-name:bobInOut;animation-duration:1s;animation-iteration-count:infinite}@keyframes bobInOut{50%{transform:scale(1.1)}}/*!
+@charset "UTF-8";.card-img{object-fit:cover;height:300px}.carousel-img{object-fit:cover;width:80%;align-self:center;justify-self:center;align-items:center;align-content:center;justify-content:center;justify-items:center}.hover-zoom{transition:transform .3s ease}.hover-zoom:hover{transform:scale(1.05)}.removeFormat{text-decoration:none}.toppy{padding-top:100;justify-self:"center"}/*!
 * Bootstrap  v5.3.3 (https://getbootstrap.com/)
 * Copyright 2011-2024 The Bootstrap Authors
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
