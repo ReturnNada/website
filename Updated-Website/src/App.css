@@ -11,12 +11,11 @@
   transform: scale(1.05);
 }
 
-.title{
-  animation-name: bobInOut;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+.removeFormat{
+  text-decoration: none;
 }
 
-@keyframes bobInOut{
-  50%{transform: scale(1.1, 1.1);}
+.title{
+  padding-top: 100;
+  justify-self: "center";
 }

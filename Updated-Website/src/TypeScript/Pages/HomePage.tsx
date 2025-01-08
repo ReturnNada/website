@@ -1,6 +1,5 @@
-import NavBar from "./NavBar";
-import CardView from "./CardView";
-
+import NavBar from "../NavBar";
+import CardView from "../CardView";
 {
   /*
   Add: 
@@ -20,7 +19,14 @@ function App() {
           justifySelf: "center",
         }}
       >
-        Welcome to Lucas R's domain
+        Welcome
+      </h1>
+      <h1
+        style={{
+          justifySelf: "center",
+        }}
+      >
+        to Lucas R's domain
       </h1>
       <CardView></CardView>
       <footer

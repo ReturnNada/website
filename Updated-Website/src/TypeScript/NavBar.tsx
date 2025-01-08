@@ -11,9 +11,9 @@ const NavigationBar = () => {
           <Nav className="me-auto">
             <hr />
             <Nav.Link href="/website/">Home</Nav.Link>
-            <Nav.Link href="/website/21/">About</Nav.Link>
-            <Nav.Link href="#services">Contact</Nav.Link>
-            <Nav.Link href="#contact">Documents</Nav.Link>
+            <Nav.Link href="/website/about/">About</Nav.Link>
+            <Nav.Link href="/website/contact/">Contact</Nav.Link>
+            <Nav.Link href="/website/documents/">Documents</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
