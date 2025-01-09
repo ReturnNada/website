@@ -16,13 +16,13 @@ const NavigationBar = () => {
             <Nav.Link className="hover-zoom" href="/website/">
               Home
             </Nav.Link>
-            <Nav.Link className="hover-zoom" href="/website/about/">
+            <Nav.Link className="hover-zoom" href="/website/About/">
               About
             </Nav.Link>
             <Nav.Link className="hover-zoom" href="mailto:armaitus@gmail.com">
               Contact
             </Nav.Link>
-            <Nav.Link className="hover-zoom" href="/website/documents/">
+            <Nav.Link className="hover-zoom" href="/website/Documents/">
               Documents
             </Nav.Link>
           </Nav>

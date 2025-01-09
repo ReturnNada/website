@@ -15,6 +15,7 @@ import QIRPage from "./Pages/QIRPage.tsx";
 import RobotPage from "./Pages/RobotPage.tsx";
 import AboutPage from "./Pages/AboutPage.tsx";
 import DocumentPage from "./Pages/DocumentPage.tsx";
+import WhatNextPage from "./Pages/WhatNextPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +71,11 @@ const router = createBrowserRouter([
   {
     path: "/website/Documents/",
     element: <DocumentPage />,
+    errorElement: <NotFoundPage />,
+  },
+  {
+    path: "/website/WhatNext/",
+    element: <WhatNextPage />,
     errorElement: <NotFoundPage />,
   },
 ]);

@@ -10,6 +10,7 @@ import Night_Vision from "../assets/Night_Vision.jpg";
 import Noise_Detector from "../assets/Noise_Detector.jpg";
 import QIR from "../assets/QIR.png";
 import Robot2 from "../assets/Robot2.png";
+import QuestionMark from "../assets/QuestionMark.jpg";
 
 interface CardData {
   id: number;
@@ -37,10 +38,10 @@ const CardView: React.FC = () => {
     },
     {
       id: 3,
-      title: "Sketchee",
-      text: "A productivity app for artists",
-      imageUrl: Sketchee,
-      link: "/website/Sketchee/",
+      title: "Competition Robot",
+      text: "For use in Lockheed Martin's E-Week",
+      imageUrl: Robot2,
+      link: "/website/Robot/",
     },
     {
       id: 4,
@@ -58,24 +59,31 @@ const CardView: React.FC = () => {
     },
     {
       id: 6,
+      title: "Sketchee",
+      text: "A productivity app for artists",
+      imageUrl: Sketchee,
+      link: "/website/Sketchee/",
+    },
+    {
+      id: 7,
+      title: "QIR",
+      text: "Air-hockey inspired game",
+      imageUrl: QIR,
+      link: "/website/QIR/",
+    },
+    {
+      id: 8,
       title: "Noise Detector",
       text: "Uses an STM32, LEDs, and I2C microphone",
       imageUrl: Noise_Detector,
       link: "/website/NoiseDetector/",
     },
     {
-      id: 7,
-      title: "QIR",
-      text: "Ice-hockey inspired game",
-      imageUrl: QIR,
-      link: "/website/QIR/",
-    },
-    {
-      id: 8,
-      title: "Competition Robot",
-      text: "For use in Lockheed Martin's E-Week",
-      imageUrl: Robot2,
-      link: "/website/Robot/",
+      id: 9,
+      title: "What's Next?",
+      text: "Future plans and project ideas",
+      imageUrl: QuestionMark,
+      link: "/website/WhatNext/",
     },
   ];
 
