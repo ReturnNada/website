@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router";
 import { Carousel, CarouselItem } from "react-bootstrap";
 import "../../App.css";
@@ -8,21 +7,21 @@ import CASS0 from "../../assets/CASS0.png";
 function ClassActionPage() {
   return (
     <>
-      <h1>Class Action</h1>
+      <h1 style={{ justifySelf: "center" }}>Class Action</h1>
       <Carousel
-        className="carousel slide"
-        style={{
-          alignSelf: "center",
-        }}
+        slide
+        interval={null}
+        variant="dark"
+        style={{ width: "66%", justifySelf: "center" }}
       >
         <CarouselItem className="carousel-item">
-          <img src={CASS0} className="carousel-img" />
+          <img src={CASS0} className="d-block w-100" />
         </CarouselItem>
         <CarouselItem className="carousel-item">
-          <img src={CASS0} className="carousel-img" />
+          <img src={CASS0} className="d-block w-100" />
         </CarouselItem>
         <CarouselItem className="carousel-item">
-          <img src={CASS0} className="carousel-img" />
+          <img src={CASS0} className="d-block w-100" />
         </CarouselItem>
       </Carousel>
       <Link to="/website/">Back</Link>

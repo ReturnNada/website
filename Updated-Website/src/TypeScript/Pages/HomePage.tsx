@@ -4,8 +4,9 @@ import CardView from "../CardView";
   /*
   Add: 
   -GitHub/LinkedIn logos
-  -Routing
   -Footer
+  -Gif on Hover
+  -Keep position on page
 */
 }
 

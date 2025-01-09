@@ -6,12 +6,6 @@
 .carousel-img{
   object-fit: cover;
   width: 80%;
-  align-self: center;
-  justify-self: center;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  justify-items: center;
 }
 
 .hover-zoom {

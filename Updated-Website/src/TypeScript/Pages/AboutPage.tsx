@@ -1,11 +1,12 @@
 import { Link } from "react-router";
 
-function QIRPage() {
+function AboutPage() {
   return (
     <div>
+      <h1>About</h1>
       <Link to={"/website/"}>Back</Link>
     </div>
   );
 }
 
-export default QIRPage;
+export default AboutPage;

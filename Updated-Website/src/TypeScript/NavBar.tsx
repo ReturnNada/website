@@ -6,14 +6,25 @@ const NavigationBar = () => {
     <Navbar bg="light" fixed="top" expand="lg">
       <Container>
         <Navbar.Brand>Dashboard</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="hover-zoom"
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <hr />
-            <Nav.Link href="/website/">Home</Nav.Link>
-            <Nav.Link href="/website/about/">About</Nav.Link>
-            <Nav.Link href="/website/contact/">Contact</Nav.Link>
-            <Nav.Link href="/website/documents/">Documents</Nav.Link>
+            <Nav.Link className="hover-zoom" href="/website/">
+              Home
+            </Nav.Link>
+            <Nav.Link className="hover-zoom" href="/website/about/">
+              About
+            </Nav.Link>
+            <Nav.Link className="hover-zoom" href="mailto:armaitus@gmail.com">
+              Contact
+            </Nav.Link>
+            <Nav.Link className="hover-zoom" href="/website/documents/">
+              Documents
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

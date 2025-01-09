@@ -47,7 +47,7 @@ const CardView: React.FC = () => {
       title: "(s)HitBox",
       text: "Makeshift controller for fighting games",
       imageUrl: Hitbox,
-      link: "/website/(s)Hitbox)/",
+      link: "/website/Hitbox/",
     },
     {
       id: 5,
