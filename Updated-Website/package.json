@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/model-viewer": "^4.0.0",
     "@react-three/drei": "^9.120.6",
     "@react-three/fiber": "^8.17.12",
     "@types/three": "^0.172.0",

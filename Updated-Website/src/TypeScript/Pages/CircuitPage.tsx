@@ -1,17 +1,14 @@
-import { Link } from "react-router";
-import { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+import "@google/model-viewer";
 
-function CircuitPage() {
+const CircuitPage: React.FC = () => {
   return (
-    <div>
-      <Canvas>
-        <Suspense fallback={null}></Suspense>
-      </Canvas>
-      <Link to={"/website/"}>Back</Link>
-    </div>
+    <model-viewer
+      src="/MSXV_CB_Breakout_Rev_1/MSXV_CB_Breakout_Rev_1.gltf?url"
+      alt="A 3D model"
+      auto-rotate
+      camera-controls
+    ></model-viewer>
   );
-}
+};
 
 export default CircuitPage;
