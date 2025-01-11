@@ -1,10 +1,15 @@
 import { Link } from "react-router";
 
+import NavigationBar from "../NavBar";
+
 function WhatNextPage() {
   return (
     <div>
-      <h1>What's Next?</h1>
-      <Link to={"/website/"}>Back</Link>
+      <NavigationBar />
+      <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>
+        What's Next?
+      </h1>
+      <Link to={"/website/Projects/"}>Back</Link>
     </div>
   );
 }

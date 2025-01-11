@@ -19,11 +19,11 @@ const NavigationBar = () => {
             <Nav.Link className="hover-zoom" href="/website/About/">
               About
             </Nav.Link>
-            <Nav.Link className="hover-zoom" href="mailto:armaitus@gmail.com">
-              Contact
+            <Nav.Link className="hover-zoom" href="/website/Projects/">
+              Projects
             </Nav.Link>
-            <Nav.Link className="hover-zoom" href="/website/Documents/">
-              Documents
+            <Nav.Link className="hover-zoom" href="mailto:armaitus@gmail.com">
+              Contact Me
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

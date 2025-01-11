@@ -1,5 +1,4 @@
 import NavBar from "../NavBar";
-import CardView from "../CardView";
 {
   /*
   Add: 
@@ -16,7 +15,7 @@ function App() {
       <NavBar></NavBar>
       <h1
         style={{
-          paddingTop: 100,
+          paddingTop: "20%",
           justifySelf: "center",
         }}
       >
@@ -29,17 +28,6 @@ function App() {
       >
         to Lucas R's domain
       </h1>
-      <CardView></CardView>
-      <footer
-        style={{
-          backgroundColor: "#ffffff",
-          paddingBottom: 50,
-          justifySelf: "center",
-          flex: 1,
-        }}
-      >
-        All Rights Reserved
-      </footer>
     </>
   );
 }

@@ -14,7 +14,7 @@ import NoiseDetectorPage from "./Pages/NoiseDetectorPage.tsx";
 import QIRPage from "./Pages/QIRPage.tsx";
 import RobotPage from "./Pages/RobotPage.tsx";
 import AboutPage from "./Pages/AboutPage.tsx";
-import DocumentPage from "./Pages/DocumentPage.tsx";
+import ProjectPage from "./Pages/ProjectPage.tsx";
 import WhatNextPage from "./Pages/WhatNextPage.tsx";
 
 const router = createBrowserRouter([
@@ -69,8 +69,8 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: "/website/Documents/",
-    element: <DocumentPage />,
+    path: "/website/Projects/",
+    element: <ProjectPage />,
     errorElement: <NotFoundPage />,
   },
   {

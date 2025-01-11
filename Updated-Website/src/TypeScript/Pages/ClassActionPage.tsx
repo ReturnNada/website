@@ -1,13 +1,17 @@
 import { Link } from "react-router";
 import { Carousel, CarouselItem } from "react-bootstrap";
-import "../../App.css";
 
+import "../../App.css";
 import CASS0 from "../../assets/CASS0.png";
+import NavigationBar from "../NavBar";
 
 function ClassActionPage() {
   return (
     <>
-      <h1 style={{ justifySelf: "center" }}>Class Action</h1>
+      <NavigationBar />
+      <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>
+        Class Action
+      </h1>
       <Carousel
         slide
         interval={null}
@@ -24,7 +28,7 @@ function ClassActionPage() {
           <img src={CASS0} className="d-block w-100" />
         </CarouselItem>
       </Carousel>
-      <Link to="/website/">Back</Link>
+      <Link to="/website/Projects/">Back</Link>
     </>
   );
 }
