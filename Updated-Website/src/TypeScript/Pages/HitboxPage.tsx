@@ -6,7 +6,7 @@ function HitboxPage() {
     <div>
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>HitBox</h1>
-      <Link to={"/Projects/"}>Back</Link>
+      <Link to={"/website/Projects/"}>Back</Link>
     </div>
   );
 }

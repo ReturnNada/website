@@ -7,7 +7,7 @@ function QIRPage() {
     <div>
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>QIR</h1>
-      <Link to={"/Projects/"}>Back</Link>
+      <Link to={"/website/Projects/"}>Back</Link>
     </div>
   );
 }

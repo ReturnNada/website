@@ -9,7 +9,7 @@ function WhatNextPage() {
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>
         What's Next?
       </h1>
-      <Link to={"/Projects/"}>Back</Link>
+      <Link to={"/website/Projects/"}>Back</Link>
     </div>
   );
 }

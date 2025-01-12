@@ -5,7 +5,7 @@ function NotFoundPage() {
     <div>
       404 Not Found
       <br />
-      <Link to="/">Home</Link>
+      <Link to="/website/">Home</Link>
     </div>
   );
 }
