@@ -13,13 +13,13 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <hr />
-            <Nav.Link className="hover-zoom" href="/">
+            <Nav.Link className="hover-zoom" href="/website/">
               Home
             </Nav.Link>
-            <Nav.Link className="hover-zoom" href="/About/">
+            <Nav.Link className="hover-zoom" href="/website/About/">
               About
             </Nav.Link>
-            <Nav.Link className="hover-zoom" href="/Projects/">
+            <Nav.Link className="hover-zoom" href="/website/Projects/">
               Projects
             </Nav.Link>
             <Nav.Link className="hover-zoom" href="mailto:armaitus@gmail.com">
