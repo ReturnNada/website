@@ -9,7 +9,9 @@
     "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js",
+    "heroku-postbuild": "cd dist && npm install && npm run build"
   },
   "dependencies": {
     "@google/model-viewer": "^4.0.0",
@@ -17,6 +19,7 @@
     "@react-three/fiber": "^8.17.12",
     "@types/three": "^0.172.0",
     "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
     "git": "^0.1.5",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
@@ -38,5 +41,6 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5"
-  }
+  },
+  "proxy": "http//localhost:5000"
 }
