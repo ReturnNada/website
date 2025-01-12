@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "../App.css";
 import HomePage from "./Pages/HomePage.tsx";
@@ -17,71 +17,25 @@ import AboutPage from "./Pages/AboutPage.tsx";
 import ProjectPage from "./Pages/ProjectPage.tsx";
 import WhatNextPage from "./Pages/WhatNextPage.tsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/website/",
-    element: <HomePage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/CA/",
-    element: <ClassActionPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/PCBs/",
-    element: <CircuitPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/Sketchee/",
-    element: <SketcheePage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/Hitbox/",
-    element: <HitboxPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/NightVision/",
-    element: <NightVisionPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/NoiseDetector/",
-    element: <NoiseDetectorPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/QIR/",
-    element: <QIRPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/Robot/",
-    element: <RobotPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/About/",
-    element: <AboutPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/Projects/",
-    element: <ProjectPage />,
-    errorElement: <NotFoundPage />,
-  },
-  {
-    path: "/website/WhatNext/",
-    element: <WhatNextPage />,
-    errorElement: <NotFoundPage />,
-  },
-]);
-
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/website/" element={<HomePage />} />
+        <Route path="/website/CA/" element={<ClassActionPage />} />
+        <Route path="/website/PCBs/" element={<CircuitPage />} />
+        <Route path="/website/Sketchee/" element={<SketcheePage />} />
+        <Route path="/website/Hitbox/" element={<HitboxPage />} />
+        <Route path="/website/NightVision/" element={<NightVisionPage />} />
+        <Route path="/website/NoiseDetector/" element={<NoiseDetectorPage />} />
+        <Route path="/website/QIR/" element={<QIRPage />} />
+        <Route path="/website/Robot/" element={<RobotPage />} />
+        <Route path="/website/About/" element={<AboutPage />} />
+        <Route path="/website/Projects/" element={<ProjectPage />} />
+        <Route path="/website/WhatNext/" element={<WhatNextPage />} />
+        {/* Catch-all route for undefined paths */}
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
