@@ -28,7 +28,7 @@ function ClassActionPage() {
           <img src={CASS0} className="d-block w-100" />
         </CarouselItem>
       </Carousel>
-      <Link to="/website/Projects/">Back</Link>
+      <Link to="/Projects/">Back</Link>
     </>
   );
 }

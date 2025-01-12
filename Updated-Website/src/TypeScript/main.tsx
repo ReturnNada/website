@@ -19,20 +19,20 @@ import WhatNextPage from "./Pages/WhatNextPage.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/website">
       <Routes>
-        <Route path="/website/" element={<HomePage />} />
-        <Route path="/website/CA/" element={<ClassActionPage />} />
-        <Route path="/website/PCBs/" element={<CircuitPage />} />
-        <Route path="/website/Sketchee/" element={<SketcheePage />} />
-        <Route path="/website/Hitbox/" element={<HitboxPage />} />
-        <Route path="/website/NightVision/" element={<NightVisionPage />} />
-        <Route path="/website/NoiseDetector/" element={<NoiseDetectorPage />} />
-        <Route path="/website/QIR/" element={<QIRPage />} />
-        <Route path="/website/Robot/" element={<RobotPage />} />
-        <Route path="/website/About/" element={<AboutPage />} />
-        <Route path="/website/Projects/" element={<ProjectPage />} />
-        <Route path="/website/WhatNext/" element={<WhatNextPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/CA/" element={<ClassActionPage />} />
+        <Route path="/PCBs/" element={<CircuitPage />} />
+        <Route path="/Sketchee/" element={<SketcheePage />} />
+        <Route path="/Hitbox/" element={<HitboxPage />} />
+        <Route path="/NightVision/" element={<NightVisionPage />} />
+        <Route path="/NoiseDetector/" element={<NoiseDetectorPage />} />
+        <Route path="/QIR/" element={<QIRPage />} />
+        <Route path="/Robot/" element={<RobotPage />} />
+        <Route path="/About/" element={<AboutPage />} />
+        <Route path="/Projects/" element={<ProjectPage />} />
+        <Route path="/WhatNext/" element={<WhatNextPage />} />
         {/* Catch-all route for undefined paths */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

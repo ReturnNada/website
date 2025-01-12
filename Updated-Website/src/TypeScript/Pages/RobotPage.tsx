@@ -7,7 +7,7 @@ function RobotPage() {
     <div>
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>Robot</h1>
-      <Link to={"/website/Projects/"}>Back</Link>
+      <Link to={"/Projects/"}>Back</Link>
     </div>
   );
 }

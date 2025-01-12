@@ -87,7 +87,7 @@ const CircuitPage: React.FC = () => {
         <p>Board</p>
       </h4>
       <br />
-      <Link to={"/website/Projects/"}>Back</Link>
+      <Link to={"/Projects/"}>Back</Link>
     </>
   );
 };
