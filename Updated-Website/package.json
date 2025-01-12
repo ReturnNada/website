@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node server.js",
-    "heroku-postbuild": "cd dist && npm install && npm run build"
+    "heroku-postbuild": "cd dist && npm install && npm run build",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "@google/model-viewer": "^4.0.0",
@@ -21,11 +22,12 @@
     "bootstrap": "^5.3.3",
     "express": "^4.21.2",
     "git": "^0.1.5",
+    "npm-force-resolutions": "^0.0.10",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.1",
-    "three": "^0.172.0"
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -42,5 +44,8 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5"
   },
-  "proxy": "http//localhost:5000"
+  "proxy": "http//localhost:5000",
+  "resolutions": {
+    "three": "0.169.0"
+  }
 }
