@@ -27,21 +27,26 @@ const CircuitPage: React.FC = () => {
         style={{
           width: "33%",
           height: "300px",
-          display: "inline-block",
+          float: "right",
         }}
       ></model-viewer>
       <h4
         style={{
-          display: "inline-block",
           verticalAlign: "top",
           paddingLeft: "20px",
           paddingTop: "20px",
         }}
       >
         <u>Breakout Board</u>
-        <p>Board</p>
+        <p>
+          Allows for another board hosting an STM32 to interface with other
+          electronic components, in a fashion simmilar to the arduino boards.
+          This ensures the team knows that the other board would interface
+          properly in the final design.
+        </p>
       </h4>
-
+      <br />
+      <br />
       <br />
       <model-viewer
         src={PCB_AntiSparkV3}
@@ -50,20 +55,24 @@ const CircuitPage: React.FC = () => {
         style={{
           width: "33%",
           height: "300px",
-          display: "inline-block",
+          float: "right",
         }}
       ></model-viewer>
       <h4
         style={{
-          display: "inline-block",
           verticalAlign: "top",
           paddingLeft: "20px",
           paddingTop: "20px",
         }}
       >
         <u>AntiSpark</u>
-        <p>Board</p>
+        <p>
+          Prevents sparking when plugging in a battery, which is necessary due
+          to the 10s6p design we chose for it.
+        </p>
       </h4>
+      <br />
+      <br />
       <br />
       <model-viewer
         src={PCB_Battery_Tester}
@@ -72,20 +81,23 @@ const CircuitPage: React.FC = () => {
         style={{
           width: "33%",
           height: "300px",
-          display: "inline-block",
+          float: "right",
         }}
       ></model-viewer>
       <h4
         style={{
-          display: "inline-block",
           verticalAlign: "top",
           paddingLeft: "20px",
           paddingTop: "20px",
         }}
       >
         <u>Battery Tester</u>
-        <p>Board</p>
+        <p>
+          Set a new voltage testing standard for the batteries used in the car's
+          alternate power source.
+        </p>
       </h4>
+      <br />
       <br />
       <Link to={"/website/Projects/"}>Back</Link>
     </>

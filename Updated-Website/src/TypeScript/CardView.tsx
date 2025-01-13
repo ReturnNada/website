@@ -62,21 +62,21 @@ const CardView: React.FC = () => {
       title: "Sketchee",
       text: "A productivity app for artists",
       imageUrl: Sketchee,
-      link: "/website/Sketchee/",
+      link: "https://github.com/ReturnNada/Sketchee",
     },
     {
       id: 7,
       title: "QIR",
       text: "Air-hockey inspired game",
       imageUrl: QIR,
-      link: "/website/QIR/",
+      link: "https://github.com/Sleepwalker-Studios/QIR",
     },
     {
       id: 8,
       title: "Noise Detector",
       text: "Uses an STM32, LEDs, and I2C microphone",
       imageUrl: Noise_Detector,
-      link: "/website/NoiseDetector/",
+      link: "https://github.com/ReturnNada/Library-Sound-Monitor",
     },
     {
       id: 9,
@@ -92,7 +92,15 @@ const CardView: React.FC = () => {
       <Row xs={1} md={2} lg={3} className="g-4">
         {cardData.map((card) => (
           <Col key={card.id}>
-            <Link to={card.link} className="removeFormat">
+            <Link
+              to={card.link}
+              target={
+                card.id === 8 || card.id === 7 || card.id === 6
+                  ? "_blank"
+                  : "_self"
+              }
+              className="removeFormat"
+            >
               <Card className="hover-zoom">
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
