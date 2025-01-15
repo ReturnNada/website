@@ -1,12 +1,21 @@
-import { Link } from "react-router";
 import NavigationBar from "../NavBar";
 import "../../App.css";
+import Soldering from "../../assets/Soldering.jpg";
 
 function HitboxPage() {
   return (
     <div>
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>(s)HitBox</h1>
+      <br />
+      <br />
+      <img
+        src={Soldering}
+        style={{
+          width: "66%",
+          justifySelf: "center",
+        }}
+      />
       <br />
       <br />
       <p className="toppy projectText">
@@ -18,9 +27,6 @@ function HitboxPage() {
         cross-compatible with the Nintendo Switch and Computers for Smash
         Ultimate and Melee, respectively.
       </p>
-      <br />
-      <br />
-      <Link to={"/website/Projects/"}>Back</Link>
     </div>
   );
 }

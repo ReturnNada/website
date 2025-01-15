@@ -1,5 +1,4 @@
 import "@google/model-viewer";
-import { Link } from "react-router-dom";
 
 import NavigationBar from "../NavBar";
 import MSXV_CB_Breakout_Rev_1 from "../../MSXV_CB_Breakout_Rev_1/MSXV_CB_Breakout_Rev_1.glb";
@@ -100,16 +99,6 @@ const CircuitPage: React.FC = () => {
           erroneously used.
         </p>
       </h4>
-      <br />
-      <br />
-      <Link
-        to={"/website/Projects/"}
-        style={{
-          justifySelf: "center",
-        }}
-      >
-        Back
-      </Link>
     </>
   );
 };
