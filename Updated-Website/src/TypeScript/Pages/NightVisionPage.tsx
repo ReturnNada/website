@@ -31,7 +31,15 @@ function NightVisionPage() {
           <img src={NightVision} className="d-block w-100" />
         </CarouselItem>
       </Carousel>
-      <p className="toppy projectText">
+      <br />
+      <p
+        className="toppy projectText"
+        style={{
+          width: "66%",
+          justifySelf: "center",
+          paddingBottom: "50px",
+        }}
+      >
         I got tired of needing to use a flashlight to see in the dark, so I
         decided to build a pair of Night Vision goggles using a Raspberry Pi
         Zero W, an IR camera, an LCD display, and a trusty hard hat. Uses python

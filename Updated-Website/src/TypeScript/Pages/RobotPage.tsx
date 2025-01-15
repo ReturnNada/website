@@ -8,8 +8,6 @@ function RobotPage() {
       <NavigationBar />
       <h1 style={{ textAlign: "center", paddingTop: "100px" }}>Robot</h1>
       <br />
-      <br />
-
       <div
         style={{
           textAlign: "center",
@@ -18,20 +16,19 @@ function RobotPage() {
         <img
           src={Robot1}
           style={{
-            paddingRight: "50px",
-            paddingTop: "50px",
-            paddingLeft: "25px",
-            width: "50%",
+            width: "66%",
             display: "block",
             margin: "0 auto",
-            float: "right",
           }}
         />
       </div>
+      <br />
       <p
         className="toppy projectText"
         style={{
-          padding: "50px",
+          width: "66%",
+          justifySelf: "center",
+          paddingBottom: "50px",
         }}
       >
         In my high school engineering class, LockHeed Martin would use their
