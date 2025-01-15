@@ -6,7 +6,7 @@ import CASS0 from "../assets/CASS0.png";
 import Electrium from "../assets/Electrium.png";
 import Sketchee from "../assets/Sketchee.png";
 import Hitbox from "../assets/Hitbox.jpg";
-import Night_Vision from "../assets/Night_Vision.jpg";
+import NV1 from "../assets/NV1.jpg";
 import Noise_Detector from "../assets/Noise_Detector.jpg";
 import QIR from "../assets/QIR.png";
 import Robot2 from "../assets/Robot2.png";
@@ -54,7 +54,7 @@ const CardView: React.FC = () => {
       id: 5,
       title: "Night Vision Goggles",
       text: "Uses an IR camera + Raspberry Pi",
-      imageUrl: Night_Vision,
+      imageUrl: NV1,
       link: "/website/NightVision/",
     },
     {

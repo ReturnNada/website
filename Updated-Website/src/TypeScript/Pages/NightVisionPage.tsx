@@ -22,10 +22,10 @@ function NightVisionPage() {
         style={{ width: "66%", justifySelf: "center" }}
       >
         <CarouselItem className="carousel-item">
-          <img src={NV1} className="d-block w-100" />
+          <img src={NV2} className="d-block w-100" />
         </CarouselItem>
         <CarouselItem className="carousel-item">
-          <img src={NV2} className="d-block w-100" />
+          <img src={NV1} className="d-block w-100" />
         </CarouselItem>
         <CarouselItem className="carousel-item">
           <img src={NightVision} className="d-block w-100" />
