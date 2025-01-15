@@ -32,11 +32,14 @@ function ClassActionPage() {
         </CarouselItem>
       </Carousel>
       <br />
-      <p className="toppy">
-        Published under Azimuth Entertainment (game development company
-        established in 2009), Class Action is a turn-based class fighter based
-        on the likes of "Worms" and "Territory War" with local multiplayer being
-        the focus.
+      <p className="toppy projectText">
+        Published under Azimuth Entertainment, a game development company
+        established in 2009, Class Action is a turn-based class fighter based on
+        the likes of "Worms" and "Territory War" with local multiplayer being
+        the focus. I wrote 13 major C# logic scripts (accounts for movement,
+        hitbox/hurtbox detection, spawning objects, etc), created 3 unique
+        characters complete with movesets and animations, made 5 background
+        assets and designed 9 scenes, including maps and selection menus.
       </p>
       <br />
       <Link

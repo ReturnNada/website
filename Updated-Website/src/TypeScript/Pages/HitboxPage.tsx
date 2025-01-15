@@ -6,10 +6,10 @@ function HitboxPage() {
   return (
     <div>
       <NavigationBar />
-      <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>HitBox</h1>
+      <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>(s)HitBox</h1>
       <br />
       <br />
-      <p className="toppy">
+      <p className="toppy projectText">
         Some players in the fighting game community prefer to compete with
         controllers following a box format, so I decided to make a custom one of
         my own to see if I liked it. Using a raspberry pi pico, the leftover

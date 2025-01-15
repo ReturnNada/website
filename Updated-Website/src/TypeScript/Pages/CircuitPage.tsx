@@ -26,7 +26,7 @@ const CircuitPage: React.FC = () => {
         camera-controls
         style={{
           width: "33%",
-          height: "300px",
+          height: "250px",
           float: "right",
         }}
       ></model-viewer>
@@ -54,7 +54,7 @@ const CircuitPage: React.FC = () => {
         camera-controls
         style={{
           width: "33%",
-          height: "300px",
+          height: "250px",
           float: "right",
         }}
       ></model-viewer>
@@ -68,9 +68,11 @@ const CircuitPage: React.FC = () => {
         <u>AntiSpark</u>
         <p>
           Prevents sparking when plugging in a battery, which is necessary due
-          to the 10s6p design we chose for it.
+          to the 10s6p design we chose for it. Set a new safety standard for
+          operation.
         </p>
       </h4>
+      <br />
       <br />
       <br />
       <br />
@@ -80,7 +82,7 @@ const CircuitPage: React.FC = () => {
         camera-controls
         style={{
           width: "33%",
-          height: "300px",
+          height: "250px",
           float: "right",
         }}
       ></model-viewer>
@@ -94,12 +96,20 @@ const CircuitPage: React.FC = () => {
         <u>Battery Tester</u>
         <p>
           Set a new voltage testing standard for the batteries used in the car's
-          alternate power source.
+          alternate power source. Prevents faulty batteries from being
+          erroneously used.
         </p>
       </h4>
       <br />
       <br />
-      <Link to={"/website/Projects/"}>Back</Link>
+      <Link
+        to={"/website/Projects/"}
+        style={{
+          justifySelf: "center",
+        }}
+      >
+        Back
+      </Link>
     </>
   );
 };
