@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import CardView from "../CardView";
 import NavigationBar from "../NavBar";
 
