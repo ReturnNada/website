@@ -4,7 +4,13 @@ import NavigationBar from "../NavBar";
 
 function ProjectPage() {
   return (
-    <>
+    <div
+      className="openAnim"
+      style={{
+        height: "175vh",
+        backgroundColor: "#ebeff5",
+      }}
+    >
       <NavigationBar></NavigationBar>
       <h1
         style={{
@@ -17,7 +23,6 @@ function ProjectPage() {
       <CardView></CardView>
       <footer
         style={{
-          backgroundColor: "#ffffff",
           paddingBottom: 50,
           justifySelf: "center",
           flex: 1,
@@ -25,8 +30,7 @@ function ProjectPage() {
       >
         All Rights Reserved
       </footer>
-      <Link to={"/website/"}>Back</Link>
-    </>
+    </div>
   );
 }
 

@@ -1,6 +1,9 @@
 import NavigationBar from "../NavBar";
 import "../../App.css";
 import Soldering from "../../assets/Soldering.jpg";
+import HitboxDemo from "../../assets/HitboxDemo.mp4";
+import Hitbox from "../../assets/Hitbox.jpg";
+import { Carousel, CarouselItem } from "react-bootstrap";
 
 function HitboxPage() {
   return (
@@ -13,14 +16,44 @@ function HitboxPage() {
           textAlign: "center",
         }}
       >
-        <img
-          src={Soldering}
-          style={{
-            width: "66%",
-            display: "block",
-            margin: "0 auto",
-          }}
-        />
+        <Carousel
+          slide
+          interval={null}
+          variant="dark"
+          style={{ width: "100%", justifySelf: "center" }}
+        >
+          <CarouselItem className="carousel-item">
+            <img
+              src={Soldering}
+              className="d-block"
+              style={{
+                height: "50vh",
+                justifySelf: "center",
+              }}
+            />
+          </CarouselItem>
+          <CarouselItem className="carousel-item">
+            <img
+              src={Hitbox}
+              className="d-block"
+              style={{
+                height: "50vh",
+                justifySelf: "center",
+              }}
+            />
+          </CarouselItem>
+          <CarouselItem className="carousel-item">
+            <video
+              src={HitboxDemo}
+              className="d-block"
+              controls
+              style={{
+                height: "50vh",
+                justifySelf: "center",
+              }}
+            />
+          </CarouselItem>
+        </Carousel>
       </div>
       <br />
       <p

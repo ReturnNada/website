@@ -6,7 +6,13 @@ import "../../App.css";
 
 function AboutPage() {
   return (
-    <div>
+    <div
+      className="openAnim"
+      style={{
+        height: "175vh",
+        backgroundColor: "#ebeff5",
+      }}
+    >
       <NavigationBar />
       <h1
         style={{
