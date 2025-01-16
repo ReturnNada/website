@@ -5,6 +5,7 @@ import "../../App.css";
 import NV1 from "../../assets/NV1.jpg";
 import NV2 from "../../assets/NV2.jpg";
 import NightVision from "../../assets/Night_Vision.jpg";
+import { ceil } from "three/tsl";
 
 function NightVisionPage() {
   return (
@@ -22,13 +23,34 @@ function NightVisionPage() {
         style={{ width: "66%", justifySelf: "center" }}
       >
         <CarouselItem className="carousel-item">
-          <img src={NV2} className="d-block w-100" />
+          <img
+            src={NV2}
+            className="d-block"
+            style={{
+              height: "50vh",
+              justifySelf: "center",
+            }}
+          />
         </CarouselItem>
         <CarouselItem className="carousel-item">
-          <img src={NV1} className="d-block w-100" />
+          <img
+            src={NV1}
+            className="d-block"
+            style={{
+              height: "50vh",
+              justifySelf: "center",
+            }}
+          />
         </CarouselItem>
         <CarouselItem className="carousel-item">
-          <img src={NightVision} className="d-block w-100" />
+          <img
+            src={NightVision}
+            className="d-block"
+            style={{
+              height: "50vh",
+              justifySelf: "center",
+            }}
+          />
         </CarouselItem>
       </Carousel>
       <br />

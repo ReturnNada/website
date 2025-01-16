@@ -22,13 +22,34 @@ function ClassActionPage() {
         style={{ width: "66%", justifySelf: "center" }}
       >
         <CarouselItem className="carousel-item">
-          <img src={CASS0} className="d-block w-100 carousel-img" />
+          <img
+            src={CASS0}
+            className="d-block"
+            style={{
+              height: "50vh",
+              justifySelf: "center",
+            }}
+          />
         </CarouselItem>
         <CarouselItem className="carousel-item">
-          <img src={CASS1} className="d-block w-100 carousel-img" />
+          <img
+            src={CASS1}
+            className="d-block"
+            style={{
+              height: "50vh",
+              justifySelf: "center",
+            }}
+          />
         </CarouselItem>
         <CarouselItem className="carousel-item">
-          <img src={CASS2} className="d-block w-100 carousel-img" />
+          <img
+            src={CASS2}
+            className="d-block"
+            style={{
+              height: "50vh",
+              justifySelf: "center",
+            }}
+          />
         </CarouselItem>
       </Carousel>
       <br />
