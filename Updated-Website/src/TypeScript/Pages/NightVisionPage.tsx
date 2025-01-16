@@ -5,7 +5,6 @@ import "../../App.css";
 import NV1 from "../../assets/NV1.jpg";
 import NV2 from "../../assets/NV2.jpg";
 import NightVision from "../../assets/Night_Vision.jpg";
-import { ceil } from "three/tsl";
 
 function NightVisionPage() {
   return (
