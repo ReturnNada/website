@@ -34,6 +34,28 @@
   font-size: 20px;
 }
 
+.cardAnim{
+  mask:
+    linear-gradient(#000 0 0),
+    linear-gradient(135deg, #000 50%, #0000 0) content-box 
+      50% 50% / 200% 200% no-repeat,
+    linear-gradient(-45deg, #000 50%, #0000 0) content-box 
+      50% 50% / 200% 200% no-repeat;
+  mask-composite: exclude;
+  animation: card 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes card {
+  from{
+    mask-position:  0% 0%, 0% 0%;
+  }
+  to{
+    mask-position:  0% 0%, 100% 100%;
+  }
+}
+
 .openAnim {
   mask:
     linear-gradient(#000 0 0),

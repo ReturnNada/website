@@ -8,7 +8,7 @@ import NightVision from "../../assets/Night_Vision.jpg";
 
 function NightVisionPage() {
   return (
-    <div>
+    <div className="cardAnim">
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>
         Night Vision

@@ -6,7 +6,6 @@ function ProjectPage() {
     <div
       className="openAnim"
       style={{
-        height: "175vh",
         backgroundColor: "#ebeff5",
       }}
     >

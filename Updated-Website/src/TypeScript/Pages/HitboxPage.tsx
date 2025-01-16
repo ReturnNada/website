@@ -7,7 +7,7 @@ import { Carousel, CarouselItem } from "react-bootstrap";
 
 function HitboxPage() {
   return (
-    <div>
+    <div className="cardAnim">
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>(s)HitBox</h1>
       <br />

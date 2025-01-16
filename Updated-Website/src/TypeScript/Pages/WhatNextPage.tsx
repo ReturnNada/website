@@ -3,7 +3,7 @@ import NavigationBar from "../NavBar";
 
 function WhatNextPage() {
   return (
-    <>
+    <div className="cardAnim">
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>
         What's Next?
@@ -20,7 +20,7 @@ function WhatNextPage() {
         computing, whether it be research opportunities under professors or
         professional work experience.
       </p>
-    </>
+    </div>
   );
 }
 

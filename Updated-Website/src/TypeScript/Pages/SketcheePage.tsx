@@ -5,7 +5,7 @@ import "../../App.css";
 
 function SketcheePage() {
   return (
-    <div>
+    <div className="cardAnim">
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>Sketchee</h1>
       <br />

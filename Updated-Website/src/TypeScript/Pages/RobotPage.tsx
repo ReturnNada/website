@@ -4,7 +4,7 @@ import Robot1 from "../../assets/Robot1.jpg";
 
 function RobotPage() {
   return (
-    <>
+    <div className="cardAnim">
       <NavigationBar />
       <h1 style={{ textAlign: "center", paddingTop: "100px" }}>Robot</h1>
       <br />
@@ -42,7 +42,7 @@ function RobotPage() {
         of plugging in the lipo battery, and flashy shades ensured that if our
         robot went down, it would be in style (it didn't).
       </p>
-    </>
+    </div>
   );
 }
 

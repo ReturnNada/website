@@ -9,7 +9,7 @@ import NavigationBar from "../NavBar";
 
 function ClassActionPage() {
   return (
-    <>
+    <div className="cardAnim">
       <NavigationBar />
       <h1 style={{ justifySelf: "center", paddingTop: "100px" }}>
         Class Action
@@ -69,7 +69,7 @@ function ClassActionPage() {
         characters complete with movesets and animations, made 5 background
         assets and designed 9 scenes, including maps and selection menus.
       </p>
-    </>
+    </div>
   );
 }
 

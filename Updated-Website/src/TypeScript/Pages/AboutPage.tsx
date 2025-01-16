@@ -9,7 +9,7 @@ function AboutPage() {
     <div
       className="openAnim"
       style={{
-        height: "175vh",
+        height: "100vh",
         backgroundColor: "#ebeff5",
       }}
     >

@@ -7,7 +7,12 @@ import PCB_Battery_Tester from "../../PCB_Battery_Tester/PCB_Battery_Tester.glb"
 
 const CircuitPage: React.FC = () => {
   return (
-    <>
+    <div
+      className="cardAnim"
+      style={{
+        height: "125vh",
+      }}
+    >
       <NavigationBar />
       <h1
         style={{
@@ -99,7 +104,7 @@ const CircuitPage: React.FC = () => {
           erroneously used.
         </p>
       </h4>
-    </>
+    </div>
   );
 };
 
