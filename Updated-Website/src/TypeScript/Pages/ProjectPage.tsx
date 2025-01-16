@@ -4,7 +4,6 @@ import NavigationBar from "../NavBar";
 function ProjectPage() {
   return (
     <div
-      className="openAnim"
       style={{
         backgroundColor: "#ebeff5",
       }}

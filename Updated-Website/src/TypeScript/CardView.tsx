@@ -101,7 +101,7 @@ const CardView: React.FC = () => {
               }
               className="removeFormat"
             >
-              <Card className="hover-zoom">
+              <Card className="hover-zoom cardAnim">
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
                   <Card.Img src={card.imageUrl} className="card-img" />
