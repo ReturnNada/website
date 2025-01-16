@@ -47,12 +47,31 @@
   animation-delay: 500ms;
   animation-fill-mode: forwards;
 }
+
 @keyframes open {
   from{
     mask-position:  0% 0%, 0% 0%;
   }
   to{
     mask-position:  0% 0%, 100% 100%;
+  }
+}
+
+.openText{
+  animation: openText 3s;
+  animation-iteration-count: 1;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes openText {
+  from{
+    font-size: 100%;
+    opacity: 0%;
+  }
+  to{
+    font-size: 400%;
+    opacity: 100%;
   }
 }
 

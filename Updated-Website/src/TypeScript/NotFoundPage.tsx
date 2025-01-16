@@ -1,5 +1,3 @@
-import NavBar from "./NavBar";
-import "../App.css";
 {
   /*
   Add: 
@@ -9,6 +7,8 @@ import "../App.css";
   -Keep position on page
 */
 }
+import NavBar from "./NavBar";
+import "../App.css";
 
 function NotFoundPage() {
   return (
@@ -16,14 +16,16 @@ function NotFoundPage() {
       className="openAnim"
       style={{
         height: "100vh",
+        backgroundColor: "#ebeff5",
       }}
     >
       <NavBar></NavBar>
       <h1
         style={{
-          paddingTop: "20%",
+          paddingTop: "33vh",
           justifySelf: "center",
         }}
+        className="openText"
       >
         Welcome
       </h1>
@@ -31,10 +33,10 @@ function NotFoundPage() {
         style={{
           justifySelf: "center",
         }}
+        className="openText"
       >
         to Lucas R's domain
       </h1>
-
       <br />
     </div>
   );

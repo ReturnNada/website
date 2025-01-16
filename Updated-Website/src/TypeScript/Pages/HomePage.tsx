@@ -1,5 +1,3 @@
-import NavBar from "../NavBar";
-import "../../App.css";
 {
   /*
   Add: 
@@ -9,6 +7,8 @@ import "../../App.css";
   -Keep position on page
 */
 }
+import NavBar from "../NavBar";
+import "../../App.css";
 
 function App() {
   return (
@@ -22,9 +22,10 @@ function App() {
       <NavBar></NavBar>
       <h1
         style={{
-          paddingTop: "40vh",
+          paddingTop: "33vh",
           justifySelf: "center",
         }}
+        className="openText"
       >
         Welcome
       </h1>
@@ -32,6 +33,7 @@ function App() {
         style={{
           justifySelf: "center",
         }}
+        className="openText"
       >
         to Lucas R's domain
       </h1>
