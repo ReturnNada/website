@@ -41,15 +41,16 @@ function AboutPage() {
           fontSize: "24px",
         }}
       >
-        I'm Lucas Robson, a Floridian Candidate for Bachelor of Applied Science
-        in Computer Engineering at the Universtiy of Waterloo. Wanting to get
-        involved with projects that were hardware-based, I participated in two
-        design teams, and experimented with different microcontrollers, giving
-        me ample experience in the circuit manufacturing and implementation
-        processes (you can read more about these experiences in the "Projects"
-        Page). In the future, I'd like to get involved in the field of Quantum
-        Computing, specifically with the hardware implementation methods of
-        qubit logic. Feel free to contact me using the Dashboard above!
+        I'm Lucas Robson, a Floridian Candidate for a Bachelor of Applied
+        Science in Computer Engineering at the Universtiy of Waterloo. Wanting
+        to get involved with projects that were hardware-based, I participated
+        in two design teams, and experimented with different microcontrollers,
+        giving me ample experience in the circuit manufacturing and
+        implementation processes (you can read more about these experiences in
+        the "Projects" Page). In the future, I'd like to get involved in the
+        field of Quantum Computing, specifically with the hardware
+        implementation methods of qubit logic. Feel free to contact me using the
+        Dashboard above!
       </p>
     </div>
   );

@@ -33,3 +33,42 @@
 .projectText{
   font-size: 20px;
 }
+
+.openAnim {
+  mask:
+    linear-gradient(#000 0 0),
+    linear-gradient(135deg, #000 50%, #0000 0) content-box 
+      50% 50% / 200% 200% no-repeat,
+    linear-gradient(-45deg, #000 50%, #0000 0) content-box 
+      50% 50% / 200% 200% no-repeat;
+  mask-composite: exclude;
+  animation: open 1.5s;
+  animation-iteration-count: 1;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes open {
+  from{
+    mask-position:  0% 0%, 0% 0%;
+  }
+  to{
+    mask-position:  0% 0%, 100% 100%;
+  }
+}
+
+.page-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

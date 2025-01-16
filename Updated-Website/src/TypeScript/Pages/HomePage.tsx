@@ -1,4 +1,5 @@
 import NavBar from "../NavBar";
+import "../../App.css";
 {
   /*
   Add: 
@@ -11,11 +12,17 @@ import NavBar from "../NavBar";
 
 function App() {
   return (
-    <>
+    <div
+      className="openAnim"
+      style={{
+        height: "100vh",
+        backgroundColor: "#ebeff5",
+      }}
+    >
       <NavBar></NavBar>
       <h1
         style={{
-          paddingTop: "20%",
+          paddingTop: "40vh",
           justifySelf: "center",
         }}
       >
@@ -28,7 +35,8 @@ function App() {
       >
         to Lucas R's domain
       </h1>
-    </>
+      <br />
+    </div>
   );
 }
 
