@@ -20,7 +20,7 @@ function HitboxPage() {
           slide
           interval={null}
           variant="dark"
-          style={{ width: "100%", justifySelf: "center" }}
+          style={{ width: "80%", justifySelf: "center" }}
         >
           <CarouselItem className="carousel-item">
             <img

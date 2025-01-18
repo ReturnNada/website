@@ -16,7 +16,7 @@ function RobotPage() {
         <img
           src={Robot1}
           style={{
-            width: "66%",
+            width: "66vh",
             display: "block",
             margin: "0 auto",
           }}

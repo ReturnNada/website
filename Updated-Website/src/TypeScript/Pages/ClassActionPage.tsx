@@ -15,43 +15,49 @@ function ClassActionPage() {
         Class Action
       </h1>
       <br />
-      <Carousel
-        slide
-        interval={null}
-        variant="dark"
-        style={{ width: "66%", justifySelf: "center" }}
+      <div
+        style={{
+          textAlign: "center",
+        }}
       >
-        <CarouselItem className="carousel-item">
-          <img
-            src={CASS0}
-            className="d-block"
-            style={{
-              height: "50vh",
-              justifySelf: "center",
-            }}
-          />
-        </CarouselItem>
-        <CarouselItem className="carousel-item">
-          <img
-            src={CASS1}
-            className="d-block"
-            style={{
-              height: "50vh",
-              justifySelf: "center",
-            }}
-          />
-        </CarouselItem>
-        <CarouselItem className="carousel-item">
-          <img
-            src={CASS2}
-            className="d-block"
-            style={{
-              height: "50vh",
-              justifySelf: "center",
-            }}
-          />
-        </CarouselItem>
-      </Carousel>
+        <Carousel
+          slide
+          interval={null}
+          variant="dark"
+          style={{ width: "80%", justifySelf: "center" }}
+        >
+          <CarouselItem className="carousel-item">
+            <img
+              src={CASS0}
+              className="d-block"
+              style={{
+                height: "50vh",
+                justifySelf: "center",
+              }}
+            />
+          </CarouselItem>
+          <CarouselItem className="carousel-item">
+            <img
+              src={CASS1}
+              className="d-block"
+              style={{
+                height: "50vh",
+                justifySelf: "center",
+              }}
+            />
+          </CarouselItem>
+          <CarouselItem className="carousel-item">
+            <img
+              src={CASS2}
+              className="d-block"
+              style={{
+                height: "50vh",
+                justifySelf: "center",
+              }}
+            />
+          </CarouselItem>
+        </Carousel>
+      </div>
       <br />
       <p
         className="toppy projectText"

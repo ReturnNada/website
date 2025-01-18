@@ -83,6 +83,10 @@
   animation: openText 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+
+  padding-top: "33vh";
+  justify-self: center;
+
 }
 
 @keyframes openText {
@@ -91,7 +95,7 @@
     opacity: 0%;
   }
   to{
-    font-size: 400%;
+    font-size: 300%;
     opacity: 100%;
   }
 }

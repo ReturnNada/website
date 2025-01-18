@@ -3,7 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="light" fixed="top" expand="lg">
+    <Navbar
+      bg="light"
+      fixed="top"
+      expand="lg"
+      style={{
+        zIndex: "1000",
+      }}
+    >
       <Container>
         <Navbar.Brand>Dashboard</Navbar.Brand>
         <Navbar.Toggle
