@@ -10,7 +10,7 @@ const CircuitPage: React.FC = () => {
     <div
       className="cardAnim"
       style={{
-        height: "125vh",
+        height: "200vh",
       }}
     >
       <NavigationBar />
