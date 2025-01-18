@@ -42,7 +42,7 @@
     linear-gradient(-45deg, #000 50%, #0000 50%) content-box 
       50% 50% / 200% 200% no-repeat;
   mask-composite: exclude;
-  animation: card 2.5s;
+  animation: card 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -64,19 +64,20 @@
     linear-gradient(-45deg, #000 50%, #0000 0) content-box 
       50% 50% / 200% 200% no-repeat;
   mask-composite: exclude;
-  animation: open 1.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  
+  /* Add animation properties */
+  animation: openAnimation 3s forwards; /* Adjust timing as needed */
 }
 
-@keyframes open {
-  from{
-    mask-position:  0% 0%, 0% 0%;
+@keyframes openAnimation {
+  from {
+    mask-position: 50% 50%, 50% 50%;
   }
-  to{
-    mask-position:  0% 0%, 100% 100%;
+  to {
+    mask-position: 0% 0%, 100% 100%;
   }
 }
+
 
 .openText{
   animation: openText 3s;

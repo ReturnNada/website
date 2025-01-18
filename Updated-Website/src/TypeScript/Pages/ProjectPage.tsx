@@ -25,7 +25,7 @@ function ProjectPage() {
           flex: 1,
         }}
       >
-        All Rights Reserved
+        <p>&copy; All Rights Reserved</p>
       </footer>
     </div>
   );
