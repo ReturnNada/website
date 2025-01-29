@@ -25,7 +25,7 @@ function HitboxPage() {
           <CarouselItem className="carousel-item">
             <img
               src={Soldering}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",
@@ -35,7 +35,7 @@ function HitboxPage() {
           <CarouselItem className="carousel-item">
             <img
               src={Hitbox}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",
@@ -45,7 +45,7 @@ function HitboxPage() {
           <CarouselItem className="carousel-item">
             <video
               src={HitboxDemo}
-              className="d-block"
+              className="d-block carousel-img"
               controls
               style={{
                 height: "50vh",

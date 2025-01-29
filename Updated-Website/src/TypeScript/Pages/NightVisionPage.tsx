@@ -28,7 +28,7 @@ function NightVisionPage() {
           <CarouselItem className="carousel-item">
             <img
               src={NV2}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",
@@ -38,7 +38,7 @@ function NightVisionPage() {
           <CarouselItem className="carousel-item">
             <img
               src={NV1}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",
@@ -48,7 +48,7 @@ function NightVisionPage() {
           <CarouselItem className="carousel-item">
             <img
               src={NightVision}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",

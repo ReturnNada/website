@@ -29,7 +29,7 @@ function ClassActionPage() {
           <CarouselItem className="carousel-item">
             <img
               src={CASS0}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",
@@ -39,7 +39,7 @@ function ClassActionPage() {
           <CarouselItem className="carousel-item">
             <img
               src={CASS1}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",
@@ -49,7 +49,7 @@ function ClassActionPage() {
           <CarouselItem className="carousel-item">
             <img
               src={CASS2}
-              className="d-block"
+              className="d-block carousel-img"
               style={{
                 height: "50vh",
                 justifySelf: "center",
