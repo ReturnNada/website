@@ -45,6 +45,7 @@
   animation: card 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  animation-delay: 0.33s;
 }
 
 @keyframes card {
@@ -67,6 +68,7 @@
   
   /* Add animation properties */
   animation: openAnimation 3s forwards; /* Adjust timing as needed */
+  animation-delay: 0.33s;
 }
 
 @keyframes openAnimation {
@@ -80,21 +82,20 @@
 
 
 .openText{
-  animation: openText 3s;
+  animation: openText 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 
   justify-self: center;
 
+  animation-delay: 0.33s;
 }
 
 @keyframes openText {
   from{
-    font-size: 100%;
     opacity: 0%;
   }
   to{
-    font-size: 300%;
     opacity: 100%;
   }
 }
