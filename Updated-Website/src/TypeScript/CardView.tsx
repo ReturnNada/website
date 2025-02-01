@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import CASS0 from "../assets/CASS0.png";
+import CASS8 from "../assets/CASS8.png";
 import Electrium from "../assets/Electrium.png";
 import Sketchee from "../assets/Sketchee.png";
 import Hitbox from "../assets/Hitbox.jpg";
@@ -47,7 +47,7 @@ const CardView: React.FC = () => {
       id: 4,
       title: "Class Action",
       text: "A character-based local multiplayer game",
-      imageUrl: CASS0,
+      imageUrl: CASS8,
       link: "/website/CA/",
     },
     {

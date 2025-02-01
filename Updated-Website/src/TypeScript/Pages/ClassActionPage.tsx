@@ -1,9 +1,10 @@
 import { Carousel, CarouselItem } from "react-bootstrap";
 
 import "../../App.css";
-import CASS0 from "../../assets/CASS0.png";
-import CASS1 from "../../assets/CASS1.png";
-import CASS2 from "../../assets/CASS2.png";
+import CASS5 from "../../assets/CASS5.png";
+import CASS6 from "../../assets/CASS6.png";
+import CASS7 from "../../assets/CASS7.png";
+import CASS8 from "../../assets/CASS8.png";
 
 import NavigationBar from "../NavBar";
 
@@ -28,7 +29,7 @@ function ClassActionPage() {
         >
           <CarouselItem className="carousel-item">
             <img
-              src={CASS0}
+              src={CASS8}
               className="d-block carousel-img"
               style={{
                 height: "50vh",
@@ -38,7 +39,7 @@ function ClassActionPage() {
           </CarouselItem>
           <CarouselItem className="carousel-item">
             <img
-              src={CASS1}
+              src={CASS7}
               className="d-block carousel-img"
               style={{
                 height: "50vh",
@@ -48,7 +49,17 @@ function ClassActionPage() {
           </CarouselItem>
           <CarouselItem className="carousel-item">
             <img
-              src={CASS2}
+              src={CASS6}
+              className="d-block carousel-img"
+              style={{
+                height: "50vh",
+                justifySelf: "center",
+              }}
+            />
+          </CarouselItem>
+          <CarouselItem className="carousel-item">
+            <img
+              src={CASS5}
               className="d-block carousel-img"
               style={{
                 height: "50vh",
