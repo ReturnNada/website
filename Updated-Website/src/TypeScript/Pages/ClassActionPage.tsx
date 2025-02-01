@@ -68,6 +68,10 @@ function ClassActionPage() {
             />
           </CarouselItem>
         </Carousel>
+        <br />
+        <a href="https://returnnada.itch.io/class-action">
+          Link to itch.io page
+        </a>
       </div>
       <br />
       <p
