@@ -1,4 +1,3 @@
-import Cube from "../assets/Cube spin.mp4";
 {
   /*
   Add: 
@@ -21,9 +20,6 @@ function NotFoundPage() {
       }}
     >
       <NavBar></NavBar>
-      <video autoPlay muted loop id="myVideo">
-        <source src={Cube} type="video/mp4"></source>
-      </video>
       <h1
         style={{
           paddingTop: "33vh",
