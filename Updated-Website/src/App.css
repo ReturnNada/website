@@ -36,8 +36,8 @@
 
 #myVideo {
   position: fixed;
-  top: 37%;
-  left: 50%;
+  top: 50%;
+  left: 51%;
   min-width: 100vw;
   min-height: 100vh;
   width: auto;
