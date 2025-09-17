@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
 .card-img {
   object-fit: cover;
   height: 300px;
@@ -9,11 +11,15 @@
 }
 
 .hover-zoom {
-  transition: transform 0.3s ease;
+  /* font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal; */
+  
+  transition: transform 1s ease;
 }
 
 .hover-zoom:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .removeFormat{
@@ -95,6 +101,11 @@
 
 
 .openText{
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 350%;
+
   animation: openText 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
